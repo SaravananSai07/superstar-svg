@@ -1,6 +1,9 @@
 # Rajnikanth's Silhouette SVG
 
 
+![Rajnikanth](/superstar.svg)
+
+
 ### Context
 Recently, I was looking for a SVG icon which I couldn't find with some of the icon providers. I tried prompting ChatGPT to come up with the SVG code, I got the SVG code which was, well, close to 1% of what I asked for. And, a whileback I watched a [100 seconds](https://www.youtube.com/playlist?list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN) video from [Jeff Delaney](https://fireship.io/contributors/jeff-delaney/#:~:text=Jeff%20Delaney%20is%20a%20Google,the%20creator%20of%20fireship.io.) on [SVGs](https://youtu.be/emFMHH2Bfvo?si=DsM7Lo-clZS9W4Zq) and thought of giving it a try back then and it remained a thought till the time came.
 
