@@ -24,7 +24,7 @@ In this case, I've used *Move to*, *Line to* and *Arcs* to complete the design.
 
 #### [Code](/superstar.svg)
 
-* In a 75 x 100 space, I've started with bottom left with `M20 99.5` and ended up in that point with `L20 99.5` command.
+* In a ~75 x 100 space, I've started with bottom left with `M20 99.5` and ended up almost at that point with `L19.5 99.5` command.
 * If there are multiple `path` or other shape elements which has a similar styling properties like `fill`, `stroke` and `stroke-width`,  `<g>` tag can be used to group them.
 ```
     <g fill="black" stroke="black" stroke-width="1">
