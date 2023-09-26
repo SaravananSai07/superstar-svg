@@ -16,13 +16,15 @@ SVG provides some [basic shapes](https://developer.mozilla.org/en-US/docs/Web/SV
 ### Designing Rajnikanth
 While I was reading about SVG, I wanted to give it a try with something *not regular* to test it out and was thinking of designing a human standing and wanted it to be a silhouette to get away with not working on the details. Started thinking of making a silhouette of a recognizable figure and Rajnikanth's silhouette is one that is easily recognizable and strongly registered (for Tamilians at least).
 
+> Disclaimer: Kindly bear with my (lack of) artistic skills.
+
 #### Commands
 I designed it with the use of `path` which has a few [line commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths#line_commands) like *Move to* `M x y` and *Line to* `L x y` and a few [curve commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths#curve_commands) like *Bezier Curves* `C x1 y1, x2 y2, x y` and *Arcs* `A rx ry x-axis-rotation large-arc-flag sweep-flag x y`. 
 In this case, I've used *Move to*, *Line to* and *Arcs* to complete the design.
 
 #### [Code](/superstar.svg)
 
-* In a 100 x 100 space, I've started with bottom left with `M20 99.5` and ended up in that point with `L20 99.5` command.
+* In a 75 x 100 space, I've started with bottom left with `M20 99.5` and ended up in that point with `L20 99.5` command.
 * If there are multiple `path` or other shape elements which has a similar styling properties like `fill`, `stroke` and `stroke-width`,  `<g>` tag can be used to group them.
 ```
     <g fill="black" stroke="black" stroke-width="1">
